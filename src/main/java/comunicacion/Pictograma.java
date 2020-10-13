@@ -2,7 +2,7 @@ package comunicacion;
 
 public abstract class Pictograma {
 	
-	private String origen;
+	protected String origen;
 	
 	public Pictograma(String origen) {
 		super();

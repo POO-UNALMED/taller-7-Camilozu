@@ -2,9 +2,9 @@ package comunicacion;
 
 public abstract class Escrito extends Pictograma{
 	
-	private String titulo;
-	private String autor;
-	private int paginas;
+	protected String titulo;
+	protected String autor;
+	protected int paginas;
 	public Escrito(String origen, String titulo, String autor, int paginas) {
 		super(origen);
 		this.titulo = titulo;
